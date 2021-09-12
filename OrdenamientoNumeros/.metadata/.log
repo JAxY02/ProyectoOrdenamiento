@@ -1,0 +1,972 @@
+!SESSION 2021-09-09 07:06:45.029 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-09-09 07:07:18.250
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-09 07:07:18.250
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@749f61a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36d7a68a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-09 07:07:39.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jaxya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-09-09 07:12:50.205 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/jaxya/Downloads/OrdenamientoNumeros/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-09-09 07:13:00.702
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-09 07:13:00.702
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1308ef19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b1ff8cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-09 07:13:08.987
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jaxya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2021-09-09 07:26:14.995
+!MESSAGE Unable to read repository at http://www.objectaid.com/update/current.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: http://www.objectaid.com/update/current is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 18 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2021-09-09 07:26:14.997
+!MESSAGE Unable to read repository at http://www.objectaid.com/update/current.
+!STACK 0
+java.io.IOException: http://www.objectaid.com/update/current is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:84)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2021-09-09 07:26:15.080
+!MESSAGE Unable to read repository at http://www.objectaid.com/update/current.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://www.objectaid.com/update/current.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:93)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: http://www.objectaid.com/update/current is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2021-09-09 07:26:15.081
+!MESSAGE Unable to read repository at http://www.objectaid.com/update/current.
+!STACK 0
+java.io.IOException: http://www.objectaid.com/update/current is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.ProvisioningUI.loadMetadataRepository(ProvisioningUI.java:498)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getMetadataRepository(MetadataRepositoryElement.java:138)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getRepository(MetadataRepositoryElement.java:127)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.getQueryable(MetadataRepositoryElement.java:120)
+	at org.eclipse.equinox.internal.p2.ui.QueryProvider.getQueryDescriptor(QueryProvider.java:93)
+	at org.eclipse.equinox.internal.p2.ui.model.QueriedElement.fetchChildren(QueriedElement.java:104)
+	at org.eclipse.equinox.internal.p2.ui.model.MetadataRepositoryElement.fetchChildren(MetadataRepositoryElement.java:86)
+	at org.eclipse.equinox.internal.p2.ui.model.RemoteQueriedElement.fetchDeferredChildren(RemoteQueriedElement.java:38)
+	at org.eclipse.ui.progress.DeferredTreeContentManager$1.run(DeferredTreeContentManager.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-09-09 07:31:00.847 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/jaxya/Downloads/OrdenamientoNumeros/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-09-09 07:31:22.303
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-09-09 07:31:22.303
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b4f1eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6247c08c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-09-09 07:31:48.990
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jaxya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-09-09 07:31:55.732
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:111)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at com.yattasolutions.obf.ob.b.createDialogArea(SourceFile:68)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.yattasolutions.obf.oc.a$1.run(SourceFile:90)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-09-09 07:33:51.915
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:80)
+	at com.yattasolutions.obf.ob.b.createDialogArea(SourceFile:71)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.yattasolutions.obf.oc.a$1.run(SourceFile:90)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-09-09 07:34:50.205
+!MESSAGE An internal error occurred during: "Refresh Diagram".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.yattasolutions.obf.jc.g.kR()" because "com.yattasolutions.obf.hd.a$e.a(com.yattasolutions.obf.hd.a$e).aUh" is null
+	at com.yattasolutions.obf.hd.a$e$1.execute(SourceFile:389)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:757)
+	at com.yattasolutions.obf.nu.k.b(SourceFile:820)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:668)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:661)
+	at com.yattasolutions.obf.hd.a$e.run(SourceFile:368)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-09-09 07:34:52.030
+!MESSAGE An internal error occurred during: "Refresh Diagram".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "com.yattasolutions.obf.jc.g.kR()" because "com.yattasolutions.obf.hd.a$e.a(com.yattasolutions.obf.hd.a$e).aUh" is null
+	at com.yattasolutions.obf.hd.a$e$1.execute(SourceFile:389)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:757)
+	at com.yattasolutions.obf.nu.k.b(SourceFile:820)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:668)
+	at com.yattasolutions.obf.nu.k.a(SourceFile:661)
+	at com.yattasolutions.obf.hd.a$e.run(SourceFile:368)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:34:54.037
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:34:54.038
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.codegen.reverse.ui 2 0 2021-09-09 07:34:59.333
+!MESSAGE Create Model and Class Diagram
+!SUBENTRY 1 com.yattasolutions.codegen.reverse.ui 0 0 2021-09-09 07:34:59.334
+!MESSAGE Create Model and Class Diagram
+!SUBENTRY 2 unknown 0 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 0 0 2021-09-09 07:34:59.334
+!MESSAGE Finished Round Trip Operation
+!SUBENTRY 1 unknown 2 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 16 2021-09-09 07:34:59.334
+!MESSAGE Parser: No complete match found (parsing '/OrdenamientoNumeros/src/Interfaz/GUI.form').
+!SUBENTRY 1 unknown 2 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 16 2021-09-09 07:34:59.334
+!MESSAGE Parser: No complete match found (parsing '/OrdenamientoNumeros/src/Interfaz/OrdenamientoNumeros.uml').
+!SUBENTRY 1 unknown 2 0 2021-09-09 07:34:59.334
+!MESSAGE OK
+!SUBENTRY 2 com.yattasolutions.codegen.reverse 2 16 2021-09-09 07:34:59.334
+!MESSAGE Parser: No complete match found (parsing '/OrdenamientoNumeros/src/Interfaz/OrdenamientoNumeros.umlcd').
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.335
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.432
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.447
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.454
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.455
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.457
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.458
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.460
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.460
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.461
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.462
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.463
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.464
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.466
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.472
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.944
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.946
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.948
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.952
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.954
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.955
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.955
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.956
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:01.957
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.231
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.260
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.318
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.396
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.401
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.403
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.405
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.406
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.408
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.409
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.410
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.411
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.412
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.654
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.678
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.772
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.861
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.864
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.902
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.911
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.912
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.923
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.942
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.943
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.956
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:02.958
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.028
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.043
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.059
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.071
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.084
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.089
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.113
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.126
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.141
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.143
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.148
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.172
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.182
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.194
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.197
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.199
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.223
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.246
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.258
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.270
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.282
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.294
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.307
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.322
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.343
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.344
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.358
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.371
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.381
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.387
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.430
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.431
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.431
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.446
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.448
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.474
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.484
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.488
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.489
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.522
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.538
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.552
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.553
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.563
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.583
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.619
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.624
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.626
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.630
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.634
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.636
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.638
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.638
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.639
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.640
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.641
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.642
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.642
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.643
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.645
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.646
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.647
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.648
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.648
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.649
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.650
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.651
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.652
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.653
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.654
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.655
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.657
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.658
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.659
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.661
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.662
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.663
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.663
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.664
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.665
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.673
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.674
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.676
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.679
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.681
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.681
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.682
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.683
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.689
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.691
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.712
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.712
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.719
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.720
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.720
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.721
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.723
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.724
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY com.yattasolutions.diagrams.editor 4 0 2021-09-09 07:35:03.724
+!MESSAGE Could not apply OCL constraint-validation results to editors.
+
+!ENTRY org.eclipse.ui 2 0 2021-09-09 09:53:56.091
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.ecore.resource.Resource.getURI()" because "<local2>" is null
+	at com.yattasolutions.obf.hd.a.g(SourceFile:2158)
+	at com.yattasolutions.obf.hd.a.doSave(SourceFile:2270)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:590)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:603)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:820)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3426)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1494)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1482)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:228)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:182)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 2 0 2021-09-09 09:54:08.447
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.ecore.resource.Resource.getURI()" because "<local2>" is null
+	at com.yattasolutions.obf.hd.a.g(SourceFile:2158)
+	at com.yattasolutions.obf.hd.a.doSave(SourceFile:2270)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:590)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:603)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:820)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3426)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1494)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1482)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:228)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:182)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 2 0 2021-09-09 10:29:23.124
+!MESSAGE Save All Failed
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.emf.ecore.resource.Resource.getURI()" because "<local2>" is null
+	at com.yattasolutions.obf.hd.a.g(SourceFile:2158)
+	at com.yattasolutions.obf.hd.a.doSave(SourceFile:2270)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:590)
+	at com.yattasolutions.obf.hd.a$g.doSave(SourceFile:603)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:848)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:856)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:820)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3426)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1494)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1482)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:228)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:182)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
